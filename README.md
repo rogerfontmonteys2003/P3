@@ -15,9 +15,15 @@ Ejercicios básicos
 
    * Complete el cálculo de la autocorrelación e inserte a continuación el código correspondiente.
 
+<img width="1001" height="300" alt="image" src="https://github.com/user-attachments/assets/82c65849-8b7c-45a2-9d44-d7f0ccdd457e" />
+
+
    * Inserte una gŕafica donde, en un *subplot*, se vea con claridad la señal temporal de un segmento de
      unos 30 ms de un fonema sonoro y su periodo de pitch; y, en otro *subplot*, se vea con claridad la
 	 autocorrelación de la señal y la posición del primer máximo secundario.
+
+<img width="1683" height="373" alt="image" src="https://github.com/user-attachments/assets/9943b326-8f46-4e5e-bd4b-3c8306276a6d" />
+
 
 	 NOTA: es más que probable que tenga que usar Python, Octave/MATLAB u otro programa semejante para
 	 hacerlo. Se valorará la utilización de la biblioteca matplotlib de Python.
@@ -25,7 +31,13 @@ Ejercicios básicos
    * Determine el mejor candidato para el periodo de pitch localizando el primer máximo secundario de la
      autocorrelación. Inserte a continuación el código correspondiente.
 
+	 <img width="753" height="340" alt="image" src="https://github.com/user-attachments/assets/a1efd0fb-3c0e-4aa5-a2cb-351055282766" />
+
+
    * Implemente la regla de decisión sonoro o sordo e inserte el código correspondiente.
+
+	 <img width="759" height="367" alt="image" src="https://github.com/user-attachments/assets/b5cf7a25-ffc3-4f21-b0f7-37621984d730" />
+
 
    * Puede serle útil seguir las instrucciones contenidas en el documento adjunto `código.pdf`.
 
@@ -40,11 +52,13 @@ Ejercicios básicos
 		(r[0]), la autocorrelación normalizada de uno (r1norm = r[1] / r[0]) y el valor de la
 		autocorrelación en su máximo secundario (rmaxnorm = r[lag] / r[0]).
 
-		Puede considerar, también, la conveniencia de usar la tasa de cruces por cero.
+<img width="1916" height="272" alt="image" src="https://github.com/user-attachments/assets/322f65c8-7519-48c4-a004-a5aefaa4cdba" />
 
+*
+		Puede considerar, también, la conveniencia de usar la tasa de cruces por cero.
 	    Recuerde configurar los paneles de datos para que el desplazamiento de ventana sea el adecuado, que
 		en esta práctica es de 15 ms.
-
+*
       - Use el estimador de pitch implementado en el programa `wavesurfer` en una señal de prueba y compare
 	    su resultado con el obtenido por la mejor versión de su propio sistema.  Inserte una gráfica
 		ilustrativa del resultado de ambos estimadores.
